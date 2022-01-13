@@ -1,0 +1,19 @@
+#page__users{
+    width: 45%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #FFA0A0;
+    border-radius: 12px 0px 0px 12px;
+    position: fixed;
+    left: 55%;
+}
+
+#page__users .card__repo__user {
+    width: 70%;
+    max-height: 15vh;
+    margin-left: auto;
+    margin-right: 24px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #FF6464;
+}

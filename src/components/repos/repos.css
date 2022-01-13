@@ -1,0 +1,59 @@
+.field__repos{
+    width: 90%;
+    height: 60px;
+    overflow-y: hidden;
+    background-color: #FFA0A0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 12px;
+    margin-left: auto;
+}
+
+
+.field__repos h1{
+    font-size: 18px;
+    margin: 0;
+}
+
+.field__repos a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.field__repos .language{
+    display: flex;
+    align-items: center;
+}
+
+.field__repos .language p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff70;
+    margin-right: 4px;
+}
+
+.field__repos .language span{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #ffffff;
+    margin-right: 4px;
+}
+
+.field__repos .elipse__language{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
